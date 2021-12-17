@@ -1,0 +1,117 @@
+body {
+  width: 1200px;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-image: url(https://wallpaperaccess.com/full/54770.jpg);
+  opacity: 0.8;
+  object-fit: cover;
+}
+.info {
+  width: 50%;
+  text-align: center;
+  margin-top: 50px;
+
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.info p {
+  width: 100%;
+}
+.info h3 {
+  width: 100%;
+}
+.local {
+  display: flex;
+}
+.local i {
+  margin: auto;
+  width: 20%;
+  padding-right: 20px;
+}
+.local h3 {
+  width: 80%;
+  margin: auto;
+}
+
+.form {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  color: black;
+  border-radius: 4px;
+  justify-content: flex-start;
+}
+.form input {
+  width: 100%;
+  margin-bottom: 25px;
+  height: 40px;
+  padding-left: 10px;
+}
+.form textarea {
+  width: 100%;
+  margin-bottom: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 80px;
+}
+.form h2 {
+  width: 100%;
+}
+.reg {
+  width: 70%;
+  background-color: white;
+  margin: auto;
+  padding: 25px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  justify-content: center;
+  text-align: start;
+}
+.reg a {
+  width: fit-content;
+  background-color: blue;
+  color: white;
+  margin-right: auto;
+  padding: 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 1 ease;
+  border: none;
+}
+a:hover {
+  background-color: black;
+  transform: scale(0.8);
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 800px) {
+  .info {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .local {
+    margin-bottom: 20px;
+  }
+  .form {
+    width: 100%;
+  }
+  .reg {
+    width: 100%;
+    text-align: center;
+  }
+}
